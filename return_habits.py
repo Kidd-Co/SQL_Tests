@@ -14,7 +14,7 @@ sql = "use my_database"
 cursor.execute(sql)
 
 #Specify which uid
-userid = 2
+userid = 3
 
 sql = ('''select * from habit where UID = (%i)''' % (userid))
 cursor.execute(sql)

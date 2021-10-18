@@ -1,4 +1,4 @@
-UID,User_Name,Habit_Name,Habit_Frequency,Det_Value,
+UID,User_Name,Habit_Name,Habit_Frequency,Deterioration_Value,
 1,John,Piano,Daily,90,
 1,John,Art,Weekly,50,
 1,John,Cello,Monthly,66,

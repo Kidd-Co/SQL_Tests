@@ -35,7 +35,7 @@ uid int,
 username text,
 habit_name text,
 habit_frequency text,
-deterieration_value int,
+deterioration_value int,
 primary key (id)
 )
 '''
@@ -43,9 +43,9 @@ cursor.execute(sql)
 
 # Insert each habit from Dataframe into SQL Server:
 for index, row in df.iterrows():
-          sql = '''
-     insert into habit(uid,username,habit_name,habit_frequency,deterieration_value) values('%i','%s','%s','%s','%i')''' % (row.UID,row.User_Name,row.Habit_Name,row.Habit_Frequency,row.Det_Value)
-     cursor.execute(sql)
+        sql = '''
+        insert into habit(uid,username,habit_name,habit_frequency,deterioration_value) values('%i','%s','%s','%s','%i')''' % (row.UID,row.User_Name,row.Habit_Name,row.Habit_Frequency,row.Deterioration_Value)
+        cursor.execute(sql)
 
 connection.commit()
 cursor.close()
