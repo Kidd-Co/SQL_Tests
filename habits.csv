@@ -1,0 +1,12 @@
+UID,User_Name,Habit_Name,Habit_Frequency,Det_Value,
+1,John,Piano,Daily,90,
+1,John,Art,Weekly,50,
+1,John,Cello,Monthly,66,
+2,Mary,Piano,Daily,18,
+2,Mary,Art,Weekly,30,
+3,Luke,Cook,Monthly,76,
+3,Luke,Bath,Daily,62,
+3,Luke,Brush Teeth,Weekly,31,
+3,Luke,Piano,Monthly,39,
+4,Greg,Hike,Daily,65,
+4,Greg,Piano,Weekly,13
